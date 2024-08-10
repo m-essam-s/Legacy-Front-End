@@ -1,0 +1,29 @@
+[data-theme="light"] {
+    --font-color: black;
+    --secondary-font-color: gray;
+    --bg-color: white;
+    --ico-color: #00abf0;
+    --ternary-color: #00abf0;
+    --quaternary-color: #f000e4;
+}
+
+[data-theme="dark"] {
+    --font-color: white;
+    --secondary-font-color: gray;
+    --bg-color: black;
+    --ico-color: #00abf0;
+    --ternary-color: #f000e4;
+    --quaternary-color: #00abf0;
+}
+
+.theme-notifier button {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: all var(--global-transition-time) ease-in-out;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+    border: 0.25rem solid var(--color-fg);
+}
