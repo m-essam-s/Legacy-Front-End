@@ -13,7 +13,7 @@ To get started, simply open the `index.html` file in a web browser.
 - Theme switcher (light and dark mode)
 - Side navigation bar
 
-## Contributing
+## [Contributing](./CONTRIBUTING.md)
 
 If you would like to contribute, please fork the repository and submit a pull request. Thank you!
 
